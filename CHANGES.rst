@@ -8,7 +8,8 @@ Unreleased
     ``importlib.metadata.version("flask")``, instead. :issue:`5230`
 -   Restructure the code such that the Flask (app) and Blueprint
     classes have Sans-IO bases. :pr:`5127`
-
+-   Pass the request ctx rather than use the globals in the app class
+    methods. :pr:`5229`
 
 Version 2.3.3
 -------------
