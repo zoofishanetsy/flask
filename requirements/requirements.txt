@@ -1,0 +1,12 @@
+# Consolidated requirements for the Flask app
+
+# Development dependencies
+-r requirements/dev.txt
+
+# Testing dependencies
+-r requirements/tests.txt
+
+# Add any additional production dependencies below
+Flask==2.2.3  # Example of a specific package
+gunicorn==20.1.0  # Example of a specific package
+# You can add more packages as needed
