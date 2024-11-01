@@ -1,10 +1,10 @@
 # Consolidated requirements for the Flask app
 
 # Development dependencies
--r requirements/dev.txt
+-r dev.txt
 
 # Testing dependencies
--r requirements/tests.txt
+-r tests.txt
 
 # Add any additional production dependencies below
 Flask==2.2.3  # Example of a specific package
